@@ -247,3 +247,13 @@ p > a:hover {
 .italent-img {
   width: 100%;
 }
+
+.content-row {
+  margin-bottom: 2em;
+  margin-left: .5em;
+}
+
+.mb-0 {
+  color: #d4d4d5;
+  font-size: .7em;
+}
