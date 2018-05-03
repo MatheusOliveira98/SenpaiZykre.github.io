@@ -223,6 +223,10 @@ p > a:hover {
   margin-bottom:2em;
 }
 
+.row.d-flex.justify-content-center {
+  margin-top: 0;
+}
+
 @media (min-width: 768px) {
   #andere-projecten-col {
     border-left:1px solid #929292;
@@ -249,11 +253,17 @@ p > a:hover {
 }
 
 .content-row {
-  margin-bottom: 2em;
+  margin-bottom: 2.5em;
   margin-left: .5em;
 }
 
 .mb-0 {
   color: #d4d4d5;
   font-size: .7em;
+}
+
+@media (max-width: 768px) {
+  .voetstuk {
+    font-size: .8em;
+  }
 }
